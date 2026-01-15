@@ -11,10 +11,14 @@
             "id": "c17723b64286c598",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "my_notes/file1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "file1"
             }
           }
         ]
@@ -180,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e67cbdb4c6d9ff7",
+  "active": "c17723b64286c598",
   "lastOpenFiles": [
     "my_notes/file1.md",
     "git init.md",
