@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My_git_notes/file1.md",
+                "file": "my_git_notes/file1.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My_git_notes/file1.md",
+                "file": "my_git_notes/file1.md",
                 "mode": "source",
                 "source": false
               },
@@ -201,11 +201,11 @@
   "active": "7f8f715f898e8977",
   "lastOpenFiles": [
     "git notes.md",
-    "My_git_notes/file1.md",
+    "my_git_notes/file1.md",
     "Untitled",
     "git init.md",
     "My_git_notes/file1.txt",
-    "My_git_notes",
+    "my_git_notes",
     "notes",
     "create a link.md",
     "file1.txt"
