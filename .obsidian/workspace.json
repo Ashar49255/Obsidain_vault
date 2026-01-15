@@ -12,14 +12,10 @@
             "id": "ea1da1b0d6eec937",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git init.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "git init"
+              "title": "New tab"
             }
           }
         ]
@@ -202,8 +198,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ea1da1b0d6eec937",
+  "active": "3e67cbdb4c6d9ff7",
   "lastOpenFiles": [
+    "my_notes",
+    "notes",
     "create a link.md",
     "git init.md",
     "Untitled.md",
