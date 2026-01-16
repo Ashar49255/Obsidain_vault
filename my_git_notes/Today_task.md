@@ -11,13 +11,12 @@ git is distributed control version . it is a open source . it help to track the 
 git and github is not same. git is a tool and github is a large host of source of code in the world.
 
 ---**16.1.2026**---
-
+--
 **git ssh key concept**
 
 why we use ssh key ?  
-ssh key give me more secure and passwordless medthod for authenticating.
-
-after i'm genrate key then save in github then clone private repo on my local machine.
+ssh key give me more secure and password less method for authenticating.
+after i'm genrate key then save in GitHub then clone private repo on my local machine.
 
 **git commands**
 --
@@ -47,4 +46,4 @@ after i'm genrate key then save in github then clone private repo on my local ma
 11: **diff git merge & rebase** 
 			merge                                                                              rebase
 		Creates a merge commit                                              No merge commit
-			
+		History becomes branched                                           History stays linear  
