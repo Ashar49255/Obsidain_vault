@@ -43,7 +43,7 @@ after I'm generate key then save in GitHub then clone private repo on my local m
 7: **git checkout -b dev**
 		Create & switch new branch
 
-8: **git merge branch**
+8: **git merge conflict**
 		create two branch dev & dev2, this edit same file in this branch after we marge dev to dev2 then show conflict
 
 9: **git cherry pick** 
@@ -60,4 +60,6 @@ after I'm generate key then save in GitHub then clone private repo on my local m
 
 12: **git push/pull**
 		git push cmd use for local commit send to remte repo
-		git pull cmd use for remote 
+		git pull cmd use for remote update our local branch .
+
+13: 
