@@ -7,16 +7,16 @@ it help collaborate all members in multiple projects. all developer see full his
 **what is git ?**
 git is distributed control version . it is a open source . it help to track the code and changes in large file or project.
 
-**what is github**?
-git and github is not same. git is a tool and github is a large host of source of code in the world.
+**what is GitHub**?
+git and GitHub is not same. git is a tool and GitHub is a large host of source of code in the world.
 
 ---**16.1.2026**---
 --
-**git ssh key concept**
+**git SSH key concept**
 
-why we use ssh key ?  
-ssh key give me more secure and password less method for authenticating.
-after i'm genrate key then save in GitHub then clone private repo on my local machine.
+why we use SSH key ?  
+SSH key give me more secure and password less method for authenticating.
+after I'm generate key then save in GitHub then clone private repo on my local machine.
 
 **git commands**
 --
@@ -46,4 +46,6 @@ after i'm genrate key then save in GitHub then clone private repo on my local ma
 11: **diff git merge & rebase** 
 			merge                                                                              rebase
 		Creates a merge commit                                              No merge commit
-		History becomes branched                                           History stays linear  
+		History becomes branched                                           History stays linear 
+12: git push/pull
+		
