@@ -63,5 +63,5 @@ after I'm generate key then save in GitHub then clone private repo on my local m
 		git pull cmd use for remote update our local branch .
 
 13: **git restore <file name>**
-		this cmd use for undo file changes
+		this cmd use for undo file changes and use this is cmd unstage file
 14: 
