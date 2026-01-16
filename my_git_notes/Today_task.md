@@ -26,13 +26,14 @@ after i'm genrate key then save in github then clone private repo on my local ma
 2: git configuration
 	   git config --global user.name "name" 
    git config --global user.email "email"
-	   (this cmd use for the attach author info for any commit)
+	   this cmd use for the attach author info for any commit.
 3: git init
-	this is cmd use for make current for into git repository
+	   this is cmd use for make current for into git repository.
 4: git status
 		this cmd is show untrack, modify and stage files in git.
 5: git add .
-		in this cmd we are all file set in staging area
+		in this cmd we are all file set in staging area. before cmmint we are run this cmd 
+6: git commit
 
 
 
