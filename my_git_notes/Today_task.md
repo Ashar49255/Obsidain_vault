@@ -21,9 +21,9 @@ after i'm genrate key then save in github then clone private repo on my local ma
 
 **git commands**
 --
-1: git --version 
+**1: git --version** 
 	( this cmd use for check git version)
-2: git configuration
+**2: git configuration**
 	   git config --global user.name "name" 
    git config --global user.email "email"
 	   this cmd use for the attach author info for any commit.
@@ -38,11 +38,11 @@ after i'm genrate key then save in github then clone private repo on my local ma
 7: git checkout -b dev
 		Create & switch new branch
 8: git merge branch
-			create two branch dev & dev2, this edit same file in this branch after we marge dev to dev2 then show conflict
+		create two branch dev & dev2, this edit same file in this branch after we marge dev to dev2 then show conflict
 9: git cherry pick 
-			this cmd use for specific commit  move other branch to main branch 
+		this cmd use for specific commit  move other branch to main branch 
 10: git rebase 
-
+		Git rebase takes commits from your branch and re-applies them on top of another branch main
 
 
 
