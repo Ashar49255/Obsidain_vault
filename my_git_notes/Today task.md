@@ -62,4 +62,5 @@ after I'm generate key then save in GitHub then clone private repo on my local m
 		git push cmd use for local commit send to remte repo
 		git pull cmd use for remote update our local branch .
 
-13: 
+13: **git restore <file name>**
+		this cmd use for restore 
