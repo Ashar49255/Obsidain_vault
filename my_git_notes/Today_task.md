@@ -34,7 +34,8 @@ after i'm genrate key then save in github then clone private repo on my local ma
 5: git add .
 		before commit we are run this cmd because all file set in staging area 
 6: git commit -m
-		this cmd crea
+		this cmd create snapshot of project.
+7 
 
 
 
