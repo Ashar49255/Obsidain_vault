@@ -21,12 +21,13 @@ after i'm genrate key then save in github then clone private repo on my local ma
 
 **git commands**
 
-git --version ( this cmd use for check git version)
-
-git configuration
+1: git --version ( this cmd use for check git version)
+-----------------
+2: git configuration
 git config --global user.name "name" 
 git config --global user.email "email"
-(this cmd use for )
+(this cmd use for the attach author info for any commit)
+---------------
 
 
 
