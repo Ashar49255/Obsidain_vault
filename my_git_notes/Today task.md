@@ -48,12 +48,16 @@ after I'm generate key then save in GitHub then clone private repo on my local m
 
 9: **git cherry pick** 
 		this cmd use for specific commit  move other branch to main branch 
+
+
 10: **git rebase** 
 		Git rebase takes commits from your branch and re-applies them on top of another branch main
 	
+
 11: **diff git merge & rebase** 
 			merge                                                                              rebase
 		Creates a merge commit                                              No merge commit
 		History becomes branched                                           History stays linear 
-12: git push/pull
+
+12: **git push/pull**
 		
