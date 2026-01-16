@@ -59,4 +59,5 @@ after I'm generate key then save in GitHub then clone private repo on my local m
 		History becomes branched                                           History stays linear 
 
 12: **git push/pull**
-		git push cmd use for local changes 
+		git push cmd use for local commit send to remte repo
+		git pull cmd use for remote 
