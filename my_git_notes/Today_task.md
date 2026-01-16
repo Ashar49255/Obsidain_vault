@@ -25,26 +25,25 @@ after i'm genrate key then save in github then clone private repo on my local ma
 	( this cmd use for check git version)
 **2: git configuration**
 	   git config --global user.name "name" 
-   git config --global user.email "email"
+	   git config --global user.email "email"
 	   this cmd use for the attach author info for any commit.
-3: git init
+3: **git init**
 	   this is cmd use for make current for into git repository.
-4: git status
+4: **git status**
 		this cmd is show untrack, modify and stage files in git.
-5: git add .
+5: **git add .**
 		before commit we are run this cmd because all file set in staging area 
-6: git commit -m
+6: **git commit -m**
 		this cmd create snapshot of project.
-7: git checkout -b dev
+7: **git checkout -b dev**
 		Create & switch new branch
-8: git merge branch
+8: **git merge branch**
 		create two branch dev & dev2, this edit same file in this branch after we marge dev to dev2 then show conflict
-9: git cherry pick 
+9: **git cherry pick** 
 		this cmd use for specific commit  move other branch to main branch 
-10: git rebase 
+10: **git rebase** 
 		Git rebase takes commits from your branch and re-applies them on top of another branch main
-
-
-
+11: git push /pull 
+		
 
 
