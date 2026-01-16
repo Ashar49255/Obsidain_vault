@@ -29,7 +29,9 @@ after i'm genrate key then save in github then clone private repo on my local ma
 3: git init
     this cmd use for make current for into git repository
 4: git status
-		in this cmd we are show untrack, modify and stage files
+		this cmd is show untrack, modify and stage files in git.
+5: git add .
+		
 
 
 
