@@ -1,4 +1,3 @@
-Sure! I can help you make your notes concise and organized into a clean **Git & GitHub Cheat Sheet**.
 
 ---
 
