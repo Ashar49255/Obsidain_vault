@@ -1,4 +1,4 @@
-Sure! I can help you make your notes concise and organized into a clean **Git & GitHub Cheat Sheet**. Here's a polished version of your learning notes:
+Sure! I can help you make your notes concise and organized into a clean **Git & GitHub Cheat Sheet**.
 
 ---
 
