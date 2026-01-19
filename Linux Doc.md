@@ -101,17 +101,6 @@
 ---
 
 
-## Archie & Compression
-
-|Command|Description|Example|
-|---|---|---|
-|`tar -cvf archive.tar folder`|Create archive|`tar -cvf backup.tar /var/www`|
-|`tar -xvf archive.tar`|Extract archive|`tar -xvf backup.tar`|
-|`zip file.zip files`|Compress|`zip backup.zip *.txt`|
-|`unzip file.zip`|Extract|`unzip backup.zip`|
-
----
-
 ## Editors
 
 |Editor|Use-case|
@@ -121,13 +110,6 @@
 
 ---
 
-## Redirection & Pipes
-
-|Symbol|Description|Example|
-|---|---|---|
-|`>`|Overwrite output|`echo "Hello" > file.txt`|
-|`>>`|Append output|`echo "Hi" >> file.txt`|
-|`|`|Pipe output|
 
 ---
 
