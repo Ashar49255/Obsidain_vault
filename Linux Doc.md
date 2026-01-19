@@ -213,12 +213,6 @@ Examples:
 
 ## 11. Search & Find
 
-- `find / -name file` – search file
-    
-- `locate file` – quick search
-    
-- `grep word file` – search text
-    
 - `grep -r word dir` – recursive search
     
 
