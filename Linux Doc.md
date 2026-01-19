@@ -1,6 +1,3 @@
-# Linux Command Reference Guide – Muhammad Ashar
-
-> Complete Linux reference for DevOps & SysAdmin tasks. Includes commands, examples, and best practices.
 
 ---
 
@@ -103,19 +100,8 @@
 
 ---
 
-## Networking Commands
 
-|Command|Description|Example|Use-case|
-|---|---|---|---|
-|`ip a`|Show IP addresses|`ip a`|Network debugging|
-|`ping host`|Check connectivity|`ping google.com`|Internet test|
-|`ss -tulnp`|Show listening ports|`ss -tulnp`|Check services|
-|`scp`|Secure copy|`scp file.txt user@remote:/path`|Transfer files securely|
-|`rsync -av`|Efficient sync|`rsync -av src/ dest/`|Backup & deploy|
-
----
-
-## Archive & Compression
+## Archie & Compression
 
 |Command|Description|Example|
 |---|---|---|
