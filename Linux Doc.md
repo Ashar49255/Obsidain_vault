@@ -1,327 +1,161 @@
+# Linux Command Reference Guide – Muhammad Ashar
+
+> Complete Linux reference for DevOps & SysAdmin tasks. Includes commands, examples, and best practices.
 
 ---
 
-## 1. Basic Navigation Commands
+## Basic Navigation
 
-### `pwd`
+|Command|Description|Example|Use-case|
+|---|---|---|---|
+|`pwd`|Print working directory|`pwd` → `/home/ashar`|Check current location in filesystem|
+|`ls`|List files and directories|`ls`|See what’s in the current folder|
+|`ls -l`|Long listing (permissions, owner, size, date)|`ls -l`|Check file permissions and owner|
+|`ls -a`|Show hidden files|`ls -a`|Find config files (`.bashrc`, `.gitconfig`)|
+|`cd <dir>`|Change directory|`cd Documents`|Move into a folder|
+|`cd ..`|Move up one directory|`cd ..`|Navigate back|
+|`cd ~`|Go to home|`cd ~`|Quick return home|
 
-**What:** Shows the current working directory  
-**Why:** To know exactly where you are in the filesystem
+**Tips:**
 
-### `ls`
-
-**What:** Lists files and directories  
-**Why:** To see what exists in the current folder
-
-### `ls -l`
-
-**What:** Long listing (permissions, owner, size, date)  
-**Why:** To check file details and permissions
-
-### `ls -a`
-
-**What:** Shows hidden files (starting with `.`)  
-**Why:** Config files are often hidden
-
-### `cd <dir>`
-
-**What:** Changes directory  
-**Why:** To move into another folder
-
-### `cd ..`
-
-**What:** Moves one directory up  
-**Why:** To go back in directory structure
-
-### `cd ~`
-
-**What:** Goes to home directory  
-**Why:** Quick way to return home
+- Use `ls -lh` for human-readable sizes.
+    
+- `cd -` goes to the previous directory.
+    
 
 ---
 
-## 2. File & Directory Management
+## File & Directory Management
 
-### `touch file`
+|Command|Description|Example|Notes|
+|---|---|---|---|
+|`touch file`|Create empty file|`touch notes.txt`|Also updates timestamp|
+|`mkdir dir`|Create directory|`mkdir projects`|Single folder creation|
+|`mkdir -p a/b/c`|Create nested directories|`mkdir -p devops/scripts`|Avoid multiple commands|
+|`rm file`|Delete a file|`rm old.txt`|Irreversible!|
+|`rm -r dir`|Delete directory recursively|`rm -r old_project`|Deletes directory & all files inside|
+|`rm -rf dir`|Force delete|`rm -rf temp`|Dangerous, no confirmation|
+|`cp file1 file2`|Copy file|`cp notes.txt backup.txt`|Backup or duplicate file|
+|`cp -r dir1 dir2`|Copy directory|`cp -r project project_backup`|Recursively copies folder|
+|`mv old new`|Move or rename|`mv report.txt archive/`|Organize or rename files|
+|`stat file`|Show file metadata|`stat notes.txt`|Check timestamps, inode, permissions|
 
-**What:** Creates an empty file  
-**Why:** Used to create files or update timestamps
-
-### `mkdir dir`
-
-**What:** Creates a directory  
-**Why:** To organize files
-
-### `mkdir -p a/b/c`
-
-**What:** Creates nested directories  
-**Why:** Saves time when creating deep folder structures
-
-### `rm file`
-
-**What:** Deletes a file  
-**Why:** To remove unwanted files
-
-### `rm -r dir`
-
-**What:** Deletes directory recursively  
-**Why:** To remove folders with files inside
-
-### `rm -rf dir`
-
-**What:** Force delete without confirmation  
-**Why:** Used carefully when cleanup is required
-
-### `cp file1 file2`
-
-**What:** Copies file  
-**Why:** To create backups or duplicates
-
-### `cp -r dir1 dir2`
-
-**What:** Copies directory  
-**Why:** To duplicate entire folders
-
-### `mv old new`
-
-**What:** Moves or renames files  
-**Why:** File organization or renaming
-
-### `stat file`
-
-**What:** Shows detailed file metadata  
-**Why:** For inode, permissions, timestamps info
+**Tip:** Always double-check paths before using `rm -rf`.
 
 ---
 
-## 3. Viewing File Content
+## Viewing File Content
 
-### `cat file`
-
-**What:** Displays file content  
-**Why:** Quick view of small files
-
-### `less file`
-
-**What:** Scrollable file viewer  
-**Why:** Best for large files
-
-### `more file`
-
-**What:** Basic paging view  
-**Why:** Simple viewing without editing
-
-### `head file`
-
-**What:** Shows first 10 lines  
-**Why:** Useful for checking headers
-
-### `tail file`
-
-**What:** Shows last 10 lines  
-**Why:** Logs usually grow at the end
-
-### `tail -f file`
-
-**What:** Live log monitoring  
-**Why:** Real-time debugging (very common in DevOps)
+|Command|Description|Example|Use-case|
+|---|---|---|---|
+|`cat file`|Display file content|`cat file.txt`|Quick look at small files|
+|`less file`|Scrollable viewer|`less large.log`|Efficient for big logs|
+|`more file`|Basic paging|`more file.txt`|Simple reading|
+|`head file`|Show first 10 lines|`head notes.txt`|Check headers|
+|`tail file`|Show last 10 lines|`tail logs.log`|Monitor latest entries|
+|`tail -f file`|Real-time log monitoring|`tail -f /var/log/syslog`|Debug live logs|
 
 ---
 
-## 4. File Permissions & Ownership
+## File Permissions & Ownership
 
-### Permission Meaning
+- **Permission symbols:**  
+    `r` = read, `w` = write, `x` = execute  
+    Order: Owner | Group | Others
+    
 
-`r` = read, `w` = write, `x` = execute  
-Order: **Owner | Group | Others**
+|Command|Description|Example|Notes|
+|---|---|---|---|
+|`chmod 755 file`|Set permissions|`chmod 755 script.sh`|Owner full access, others read/execute|
+|`chmod u+x file`|Add execute to owner|`chmod u+x deploy.sh`|Run script|
+|`chmod o-r file`|Remove read from others|`chmod o-r secret.txt`|Security|
+|`chown user file`|Change owner|`chown ashar file.txt`|Ownership control|
+|`chown user:group file`|Change owner & group|`chown ashar:devops file.txt`|Team access|
 
-### `chmod 755 file`
-
-**What:** Sets permission  
-**Why:** Common for scripts and applications
-
-### `chmod u+x file`
-
-**What:** Adds execute permission to owner  
-**Why:** To run scripts
-
-### `chmod o-r file`
-
-**What:** Removes read from others  
-**Why:** For security
-
-### `chown user file`
-
-**What:** Changes file owner  
-**Why:** Ownership control
-
-### `chown user:group file`
-
-**What:** Changes owner and group  
-**Why:** Team-based access
+**Tip:** Use `ls -l` to verify permissions.
 
 ---
 
-## 5. Users & Groups
+## Users & Groups
 
-### `useradd username`
-
-**What:** Creates a user  
-**Why:** Manual user creation
-
-### `adduser username`
-
-**What:** Interactive user creation  
-**Why:** Easier and safer
-
-### `userdel username`
-
-**What:** Deletes user  
-**Why:** Cleanup old users
-
-### `groupadd groupname`
-
-**What:** Creates group  
-**Why:** Permission management
-
-### `usermod -aG group user`
-
-**What:** Adds user to group  
-**Why:** Grant group access
-
-### `id user`
-
-**What:** Shows UID, GID  
-**Why:** Debug permission issues
+|Command|Description|Example|Notes|
+|---|---|---|---|
+|`useradd username`|Create user|`useradd ash`|Manual, non-interactive|
+|`adduser username`|Interactive creation|`adduser ash`|Preferred for beginners|
+|`userdel username`|Delete user|`userdel ash`|Cleanup old users|
+|`groupadd groupname`|Create group|`groupadd devops`|For permission management|
+|`usermod -aG group user`|Add user to group|`usermod -aG devops ash`|Grant group access|
+|`id user`|Show UID, GID|`id ash`|Debug permissions|
 
 ---
 
-## 6. Process & System Monitoring
+## Processes & System Monitoring
 
-### `top`
-
-**What:** Live system processes  
-**Why:** CPU & memory monitoring
-
-### `htop`
-
-**What:** Improved top  
-**Why:** Easier process management
-
-### `ps aux`
-
-**What:** Lists all processes  
-**Why:** Find running services
-
-### `kill PID`
-
-**What:** Stops process gracefully  
-**Why:** Proper shutdown
-
-### `kill -9 PID`
-
-**What:** Force kill  
-**Why:** When process is stuck
-
-### `free -h`
-
-**What:** Memory usage  
-**Why:** RAM monitoring
-
-### `df -h`
-
-**What:** Disk usage  
-**Why:** Check disk space
+|Command|Description|Example|Use-case|
+|---|---|---|---|
+|`top`|Live process monitor|`top`|CPU & memory usage|
+|`htop`|Interactive process viewer|`htop`|Easier than top|
+|`ps aux`|List all processes|`ps aux|grep nginx`|
+|`kill PID`|Stop process gracefully|`kill 1234`|Proper shutdown|
+|`kill -9 PID`|Force kill|`kill -9 1234`|When stuck|
+|`free -h`|RAM usage|`free -h`|Memory monitoring|
+|`df -h`|Disk usage|`df -h`|Check free space|
 
 ---
 
-## 7. Networking Commands
+## Networking Commands
 
-### `ip a`
-
-**What:** Shows IP info  
-**Why:** Network troubleshooting
-
-### `ping google.com`
-
-**What:** Checks connectivity  
-**Why:** Internet/network test
-
-### `ss -tulnp`
-
-**What:** Shows open ports  
-**Why:** Service verification
-
-### `scp`
-
-**What:** Secure file transfer  
-**Why:** Copy files between servers
-
-### `rsync -av`
-
-**What:** Sync files efficiently  
-**Why:** Backup & deployment
+|Command|Description|Example|Use-case|
+|---|---|---|---|
+|`ip a`|Show IP addresses|`ip a`|Network debugging|
+|`ping host`|Check connectivity|`ping google.com`|Internet test|
+|`ss -tulnp`|Show listening ports|`ss -tulnp`|Check services|
+|`scp`|Secure copy|`scp file.txt user@remote:/path`|Transfer files securely|
+|`rsync -av`|Efficient sync|`rsync -av src/ dest/`|Backup & deploy|
 
 ---
 
-## 8. Archive & Compression
+## Archive & Compression
 
-### `tar`
-
-**What:** Archive files  
-**Why:** Backup & transfer
-
-### `zip / unzip`
-
-**What:** Compress files  
-**Why:** Reduce size
+|Command|Description|Example|
+|---|---|---|
+|`tar -cvf archive.tar folder`|Create archive|`tar -cvf backup.tar /var/www`|
+|`tar -xvf archive.tar`|Extract archive|`tar -xvf backup.tar`|
+|`zip file.zip files`|Compress|`zip backup.zip *.txt`|
+|`unzip file.zip`|Extract|`unzip backup.zip`|
 
 ---
 
-## 9. Editors
+## Editors
 
-### `nano`
-
-**Why:** Beginner-friendly editor
-
-### `vi`
-
-**Why:** Powerful editor used in servers
+|Editor|Use-case|
+|---|---|
+|`nano`|Beginner-friendly, simple editing|
+|`vi` / `vim`|Advanced, server-side editing|
 
 ---
 
-## 10. Redirection & Pipes
+## Redirection & Pipes
 
-### `>`
-
-**Why:** Save output to file
-
-### `>>`
-
-**Why:** Append output
-
-### `|`
-
-**Why:** Chain commands together
+|Symbol|Description|Example|
+|---|---|---|
+|`>`|Overwrite output|`echo "Hello" > file.txt`|
+|`>>`|Append output|`echo "Hi" >> file.txt`|
+|`|`|Pipe output|
 
 ---
 
-## 11. Search & Find
+## Search & Find
 
-### `find`
-
-**Why:** Search files anywhere
-
-### `grep`
-
-**Why:** Search text inside files
+|Command|Description|Example|
+|---|---|---|
+|`find /path -name "*.log"`|Find files|Search for all `.log` files|
+|`grep "error" file`|Search text|`grep "error" /var/log/syslog`|
 
 ---
 
-## 12. Links
+## Links
 
-### `ln`
-
-**Why:** Create file references
-
----
+|Command|Description|Example|
+|---|---|---|
+|`ln -s target link`|Create symbolic link|`ln -s /var/www html`|
