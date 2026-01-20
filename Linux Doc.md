@@ -144,3 +144,13 @@
 | `grep` | find text |
 
 -----------------------------------------------------------------------
+
+## Networking Basics
+
+`ip a ping google.com ss -tulnp`
+
+---
+
+## SSH & Remote
+
+`ssh user@ip scp file.txt user@ip:/path`
