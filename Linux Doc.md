@@ -92,7 +92,7 @@
 | ------------- | -------------------------- | -------------- | ------------------ |
 | `top`         | Live process monitor       | `top`          | CPU & memory usage |
 | `htop`        | Interactive process viewer | `htop`         | Easier than top    |
-| `ps aux`      | List all processes         | 'ps aux        | grep nginx         |
+| `ps aux`      | List all processes         | `ps aux`       | grep nginx         |
 | `kill PID`    | Stop process gracefully    | `kill 1234`    | Proper shutdown    |
 | `kill -9 PID` | Force kill                 | `kill -9 1234` | When stuck         |
 | `free -h`     | RAM usage                  | `free -h`      | Memory monitoring  |
