@@ -158,3 +158,56 @@
 
 ----------------------------------------------------
 
+## Real DevOps Example (important)
+
+### Home directory ka backup with date
+
+`tar -czvf home_backup_$(date +%F).tar.gz /home/ashar`
+
+Output:
+
+`home_backup_2026-01-20.tar.gz`
+
+🔥 Ye **professional backup style** hai.
+
+---
+
+## Backup kisi aur jagah copy karna
+
+### USB / External drive
+
+`cp backup.tar.gz /media/usb/`
+
+---
+
+### Remote server (backup server)
+
+`scp backup.tar.gz user@192.168.1.10:/backup/`
+
+---
+
+## Rsync (SMART backup tool)
+
+### Rsync kya karta hai?
+
+👉 Sirf **changed files** copy karta hai  
+👉 Fast & efficient
+
+### Example
+
+`rsync -av /home/ashar/ /backup/ashar/`
+
+|Option|Meaning|
+|---|---|
+|`a`|archive mode|
+|`v`|verbose|
+
+---
+
+## Difference samjho (important)
+
+|Tool|Kaam|
+|---|---|
+|`tar`|archive + compression|
+|`zip`|compression|
+|`rsync`|smart backup / sync|
