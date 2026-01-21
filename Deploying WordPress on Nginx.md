@@ -11,7 +11,8 @@ Architecture (Simple)
 
 
 
-![](file:///C:/Users/DevOps/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+![[Screenshot 2026-01-21 165117.png]]
+
 
 <center>Step 1: system update & upgrade with install Nginx</center>
 

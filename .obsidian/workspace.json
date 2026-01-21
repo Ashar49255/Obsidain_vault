@@ -39,12 +39,14 @@
             "id": "d35c560a85d572fd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260121170347.png"
+                "file": "Deploying WordPress on Nginx.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260121170347"
+              "icon": "lucide-file",
+              "title": "Deploying WordPress on Nginx"
             }
           },
           {
@@ -149,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20260121170347.png",
+                "file": "Deploying WordPress on Nginx.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -159,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20260121170347"
+              "title": "Backlinks for Deploying WordPress on Nginx"
             }
           },
           {
@@ -168,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20260121170347.png",
+                "file": "Deploying WordPress on Nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20260121170347"
+              "title": "Outgoing links from Deploying WordPress on Nginx"
             }
           },
           {
@@ -211,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20260121170347.png",
+                "file": "Deploying WordPress on Nginx.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20260121170347"
+              "title": "Outline of Deploying WordPress on Nginx"
             }
           }
         ],
@@ -242,6 +244,10 @@
   },
   "active": "d35c560a85d572fd",
   "lastOpenFiles": [
+    "Screenshot 2026-01-21 165117.png",
+    "Pasted image 20260121182356.png",
+    "Pasted image 20260121171448.png",
+    "Pasted image 20260121171125.png",
     "Pasted image 20260121170957.png",
     "Pasted image 20260121170513.png",
     "Pasted image 20260121170347.png",
@@ -251,9 +257,6 @@
     "my_git_notes/Git Doc.md",
     "Linux Doc.md",
     "linux work 20.1.2026.md",
-    "Pasted image 20260121182356.png",
-    "Pasted image 20260121171448.png",
-    "Pasted image 20260121171125.png",
     "git pdf.pdf",
     "my_git_notes/Today task.md",
     "git notes.md",
