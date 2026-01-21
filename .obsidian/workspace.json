@@ -49,8 +49,7 @@
               "title": "linux work 20.1.2026"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,11 +213,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d3d2a54009189a35",
+  "active": "6addc711968e7110",
   "lastOpenFiles": [
-    "my_git_notes/Git Doc.md",
     "Linux Doc.md",
     "linux work 20.1.2026.md",
+    "my_git_notes/Git Doc.md",
     "git pdf.pdf",
     "my_git_notes/Today task.md",
     "git notes.md",
