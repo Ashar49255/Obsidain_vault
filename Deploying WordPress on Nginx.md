@@ -19,3 +19,7 @@ Architecture (Simple)
 ![[Pasted image 20260121170513.png]]
 
 <center>Step:3 Install PHP & PHP8.3-FPM and Download Wordpress</center>
+
+![[Pasted image 20260121170957.png]]
+
+step 4: NGINX Server Block & 
