@@ -22,4 +22,5 @@ Architecture (Simple)
 
 ![[Pasted image 20260121171125.png]]
 
-step 4: NGINX configuration &  sitenable
+<center>step 4: NGINX configuration &  site Enable</center>
+
