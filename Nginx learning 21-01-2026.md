@@ -176,3 +176,34 @@ A **forward proxy** is a server that **sits in front of clients** and forwards t
 - **Reverse Proxy** = Protects the **server side**.
     
 - **Forward Proxy** = Protects the **client side**.
+
+
+-----
+
+**what is the different between the Apache web server and Nginx**
+
+## **Key Differences Explained**
+
+1. **Architecture & Performance**
+    
+    - Apache: Every new connection creates a new **process or thread** → memory heavy under high traffic.
+        
+    - Nginx: Uses **event-driven asynchronous model** → can handle **10,000+ connections** with minimal memory.
+        
+2. **Serving Static vs Dynamic Content**
+    
+    - Apache: Can serve static and dynamic content directly using modules like mod_php.
+        
+    - Nginx: Super fast for static content, but for dynamic content, it forwards requests to backend servers (Python, PHP, Node.js).
+        
+3. **Configuration & Flexibility**
+    
+    - Apache: `.htaccess` allows directory-level config changes → good for shared hosting.
+        
+    - Nginx: Centralized config only → more efficient and faster, but no per-directory overrides.
+        
+4. **Use Cases in Industry**
+    
+    - Apache: Good for **legacy apps, shared hosting, PHP-heavy websites**.
+        
+    - Nginx: Best for **high traffic websites, microservices, cloud apps, load balancing, reverse proxy setups**
