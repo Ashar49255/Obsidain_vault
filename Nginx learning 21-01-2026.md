@@ -259,3 +259,5 @@ Imagine:
     - Apache: Good for **legacy apps, shared hosting, PHP-heavy websites**.
         
     - Nginx: Best for **high traffic websites, microservices, cloud apps, load balancing, reverse proxy setups**
+
+
