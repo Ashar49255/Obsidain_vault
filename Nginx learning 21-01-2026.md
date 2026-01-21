@@ -180,9 +180,9 @@ A **forward proxy** is a server that **sits in front of clients** and forwards t
 
 -----
 
-**what is the different between the Apache web server and Nginx**
+# **What is the different between the Apache web server and Nginx**
 
-## **Key Differences Explained**
+### **Key Differences Explained**
 
 1. **Architecture & Performance**
     
