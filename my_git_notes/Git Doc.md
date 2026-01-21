@@ -81,4 +81,4 @@ GIT CLONE ...
 
 # Check Remote Branch
 
-*git branch -r
+<font color="#ff0000">git branch -r</font>
