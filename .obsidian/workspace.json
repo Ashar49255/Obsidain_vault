@@ -151,8 +151,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my_git_notes/Today task.md",
-                "collapseAll": true,
+                "file": "Deploying WordPress on Nginx.md",
+                "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -161,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Today task"
+              "title": "Backlinks for Deploying WordPress on Nginx"
             }
           },
           {
@@ -170,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my_git_notes/Untitled.md",
+                "file": "Deploying WordPress on Nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from Deploying WordPress on Nginx"
             }
           },
           {
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "Deploying WordPress on Nginx.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Deploying WordPress on Nginx"
             }
           }
         ],
