@@ -28,4 +28,5 @@ Architecture (Simple)
 
 ![[Pasted image 20260121171448.png]]
 
-step 5Configure WordPress
+<center>step 5: Configure WordPress</center>
+
