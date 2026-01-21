@@ -34,3 +34,4 @@ Architecture (Simple)
 ![[Pasted image 20260121182356.png]]
 
 
+<center> Finally WordPress Installed </center>
