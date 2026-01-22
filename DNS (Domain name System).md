@@ -17,7 +17,7 @@ In the same way, without an IP address, a website cannot be found.
 
 --------
 
-### DNS Servers Used to Load a Webpage
+### (4 DNS Servers Used to Load a Webpage)
 When a webpage is opened, **four DNS servers** help to find the IP address.
 
 ---
