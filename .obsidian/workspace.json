@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "DNS (Domain name server).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "DNS (Domain name server)"
             }
           }
         ],
@@ -259,7 +259,7 @@
   "active": "47d04b38e302d1b3",
   "lastOpenFiles": [
     "Nginx Notes/Nginx learning 21-01-2026.md",
-    "Untitled.md",
+    "DNS (Domain name server).md",
     "DNS Notes",
     "Nginx Notes/Deploying WordPress on Nginx.md",
     "Nginx Notes",
