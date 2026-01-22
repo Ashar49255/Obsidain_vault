@@ -50,18 +50,6 @@
             }
           },
           {
-            "id": "ffbf4f5405a51e7d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
-            }
-          },
-          {
             "id": "65c84b0f2f359481",
             "type": "leaf",
             "state": {
@@ -254,7 +242,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ffbf4f5405a51e7d",
+  "active": "65c84b0f2f359481",
   "lastOpenFiles": [
     "Deploying WordPress on Nginx.md",
     "linux work 20.1.2026.md",
