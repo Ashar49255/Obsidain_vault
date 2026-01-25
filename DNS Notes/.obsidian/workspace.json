@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "08caec1c841c0d28",
+        "id": "de0af01ea25cbc24",
         "type": "tabs",
         "children": [
           {
-            "id": "0fa9ba20acb9a7b1",
+            "id": "7540be9c8bf12e18",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 558,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -184,7 +177,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "0fa9ba20acb9a7b1",
+  "active": "7540be9c8bf12e18",
   "lastOpenFiles": [
     "Untitled.base",
     "Untitled 1.canvas",
