@@ -7,4 +7,6 @@ like nano , vim , cat is not work in Raw file
 because this is binary disk data 
 
 <font color="#ff0000">Exact Raw file use?</font>
-raw file is use for virtual disk, practice store, AWS EBS / 
+raw file is use for virtual disk, practice store, like we use AWS EBS / GCP Disk
+
+
