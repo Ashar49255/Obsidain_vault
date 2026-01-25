@@ -9,8 +9,6 @@ because this is binary disk data
 <font color="#ff0000">Exact Raw file use?</font>
 raw file is use for virtual disk, practice store, like we use AWS EBS / GCP Disk
 
-
-
 | 1   | A raw file is a binary file used as a virtual disk.                |
 | --- | ------------------------------------------------------------------ |
 | 2   | **It must be formatted with a filesystem and mounted before use.** |
@@ -25,14 +23,10 @@ raw file is use for virtual disk, practice store, like we use AWS EBS / GCP Disk
 # Creating Large Files in Linux (Quick Guide)
 
 ## 1️⃣ `fallocate` — **Fastest Method**
-
 **Meaning:**  
 Tell the system to reserve disk space immediately.
-
 fallocate -l 5G file.raw
-
 ### What happens?
-
 - A 5GB file is created **instantly**
 - Disk space is **actually occupied**
 - No real data is written (space is just reserved)
