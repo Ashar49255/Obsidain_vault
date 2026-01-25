@@ -36,11 +36,8 @@ fallocate -l 5G file.raw
 
 ---
 ## 2️⃣ `dd` – **Real data likhta hai**
-
 🧠 Matlab: “zero likho file ke andar”
-
 dd if=/dev/zero of=file.raw bs=1G count=5
-
 ### Iska matlab tod ke samjho:
 
 |Part|Meaning|
@@ -52,42 +49,28 @@ dd if=/dev/zero of=file.raw bs=1G count=5
 
 ➡️ Result = **5GB file**, har byte me zero  
 ➡️ **Slow hota hai**, but file real hoti hai
-
 📌 Use kab?  
 👉 Disk testing  
 👉 Storage labs  
 👉 Interview me zyada pasand kiya jata
 
 ---
-
 ## 3️⃣ `truncate` – **Sirf size ka dhoka 😄**
-
 🧠 Matlab: “File ka size dikha do, data baad me”
-
 truncate -s 5G file.raw
-
 ### Kya hota hai?
-
 - File 5GB dikhai deti hai
-    
 - Disk space **abhi use nahi hoti**
-    
 - Jab data likho ge tab space lega
-    
-
 📌 Use kab?  
 👉 Dummy files  
 👉 Testing scripts  
 👉 Fast demo
 
 ---
-
 ## 🔍 Real Example (Difference samajhne ke liye)
-
 ls -lh file.raw   # file ka size
-
 du -h file.raw    # disk me kitni jagah le raha
-
 ### Output example:
 
 |Command|Size|
@@ -97,7 +80,6 @@ du -h file.raw    # disk me kitni jagah le raha
 |dd|ls=5G, du=5G|
 
 ---
-
 ## 🧠 Simple yaad rakhne ka formula
 
 - ⚡ **fallocate** → fast + real space
