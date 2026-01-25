@@ -6,4 +6,5 @@ like nano , vim , cat is not work in Raw file
 <font color="#ff0000">why we are not open Raw File?</font>
 because this is binary disk data 
 
-<font color="#ff0000">?</font>
+<font color="#ff0000">Exact Raw file use?</font>
+raw file is use for virtual disk, practice store, AWS EBS / 
