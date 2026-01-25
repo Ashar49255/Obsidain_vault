@@ -14,3 +14,11 @@ raw file is use for virtual disk, practice store, like we use AWS EBS / GCP Disk
 | 1   | A raw file is a binary file used as a virtual disk.                |
 | --- | ------------------------------------------------------------------ |
 | 2   | **It must be formatted with a filesystem and mounted before use.** |
+# Real-World Mapping (important)
+
+|Lab|Real World|
+|---|---|
+|file.raw|AWS EBS|
+|mkfs|Format disk|
+|mount|Attach disk|
+|/mnt/rawdisk|EC2 mount point|
