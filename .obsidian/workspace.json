@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Assigment/Raw file.md",
+                "file": "Nginx Notes/Nginx learning 21-01-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Raw file"
+              "title": "Nginx learning 21-01-2026"
             }
           }
         ],
@@ -214,8 +214,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e67cbdb4c6d9ff7",
+  "active": "c27af9a4050330f0",
   "lastOpenFiles": [
+    "Nginx Notes/Pasted image 20260121170341.png",
+    "Nginx Notes/Nginx Frontend & backend  config.md",
+    "Linux Assigment/Raw file.md",
     "Linux notes/linux work 20.1.2026.md",
     "Linux notes/Linux Doc.md",
     "Linux Assigment/Linux CMD.md",
@@ -223,12 +226,10 @@
     "DNS Notes/DNS (Domain name System).md",
     "Nginx Notes/Nginx learning 21-01-2026.md",
     "Nginx Notes/Deploying WordPress on Nginx.md",
-    "Nginx Notes/Nginx Frontend & backend  config.md",
     "Linux Assigment/User Management.md",
     "DNS Notes/Untitled.base",
     "Untitled.md",
     "Linux Assigment/Linux File Protection  chattr +i.md",
-    "Linux Assigment/Raw file.md",
     "Linux Assigment/User and SSH.md",
     "Linux Assigment",
     "my_git_notes/Git Doc.md",
@@ -245,7 +246,6 @@
     "Nginx Notes/Pasted image 20260121170957.png",
     "Nginx Notes/Pasted image 20260121170513.png",
     "Nginx Notes/Pasted image 20260121170347.png",
-    "Nginx Notes/Pasted image 20260121170341.png",
     "git pdf.pdf",
     "my_git_notes/Today task.md",
     "git notes.md",
