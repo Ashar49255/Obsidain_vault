@@ -1,11 +1,7 @@
 
-
 ## 🔹 Command
-
 sudo chattr +i filename
-
 ## 🔹 Purpose
-
 Make a file **IMMUTABLE** (locked).
 
 ---

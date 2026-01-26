@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Assigment/# 🔒 Linux File Protection – `chattr +i` (Concise Notes).md",
+                "file": "Linux Assigment/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# 🔒 Linux File Protection – `chattr +i` (Concise Notes)"
+              "title": "Untitled"
             }
           }
         ],
@@ -216,11 +216,12 @@
   },
   "active": "c27af9a4050330f0",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Linux Assigment/Untitled.md",
+    "Linux Assigment/Linux File Protection  chattr +i.md",
     "Linux Assigment/Linux CMD.md",
-    "Linux Assigment/# 🔒 Linux File Protection – `chattr +i` (Concise Notes).md",
     "Linux Assigment/Raw file.md",
     "Linux Assigment/User and SSH.md",
-    "Untitled.md",
     "DNS Notes/DNS (Domain name System).md",
     "Linux Assigment",
     "Linux notes/linux work 20.1.2026.md",
