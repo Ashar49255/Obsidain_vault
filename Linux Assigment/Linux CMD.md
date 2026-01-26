@@ -7,12 +7,14 @@ dig example.com NS
 dig +short google.com
 dig @8.8.8.8 google.com
 dig -x 8.8.8.8
+- `dig` = Powerful tool for **DNS troubleshooting, checking records, and server validation**
+- Faster & more detailed than `nslookup` in many cases
 
 # Tips:
-# A = IP address
-# MX = Mail server
-# NS = Nameserver
-# +short = clean output
+A = IP address
+MX = Mail server
+NS = Nameserver
++short = clean output
 
 ---
 ## 2. find – Search Files
