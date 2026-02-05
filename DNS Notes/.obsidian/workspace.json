@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "de0af01ea25cbc24",
+        "id": "dc646231e940bd8a",
         "type": "tabs",
         "children": [
           {
-            "id": "7540be9c8bf12e18",
+            "id": "aa371510607e06b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ]
@@ -70,8 +77,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,12 +183,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "7540be9c8bf12e18",
+  "active": "aa371510607e06b2",
   "lastOpenFiles": [
+    "Untitled 2.canvas",
+    "2026-02-05.md",
+    "2026-01-25.md",
+    "DNS (Domain name System).md",
+    "Untitled.canvas",
     "Untitled.base",
     "Untitled 1.canvas",
-    "2026-01-25.md",
-    "Untitled.canvas",
     "linux.md"
   ]
 }
