@@ -39,40 +39,29 @@
 
 ## **5. Common Commands (AWS CLI)**
 
- '# Upload file aws s3 cp file.txt s3://mybucket/
+ Upload file aws s3 cp file.txt s3://mybucket/
 List objects aws s3 ls s3://mybucket/
 Delete object aws s3 rm s3://mybucket/file.txt 
-#Sync folder aws s3 sync ./local-folder s3://mybucket/`
+Sync folder aws s3 sync ./local-folder s3://mybucket/`
+
 
 ---
 
 ## **6. Integration with AWS Services**
-
 - **CloudFront** → CDN for S3 content
-    
 - **Lambda** → Triggered by object events
-    
 - **Glacier** → Archival storage
-    
 - **Athena** → Query data in S3 using SQL
-    
 - **Backup** → Automated backups to S3
-    
 - **RDS / Redshift** → Export snapshots to S3
-    
 
 ---
 
 ## **7. Security Options**
-
 - **Bucket Policies** → JSON access control
-    
 - **IAM Policies** → User/group permissions
-    
 - **ACLs** → Object-level permissions
-    
 - **Encryption** → SSE-S3, SSE-KMS, SSE-C
-    
 - **Public Access Block** → Prevent public exposure
     
 
