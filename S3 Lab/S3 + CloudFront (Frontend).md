@@ -106,6 +106,16 @@
 
 ---
 
+# **Option 1: Public Bucket (Simple, Not Recommended for Production)**
+
+1. Go to S3 → Select bucket → Permissions → **Bucket Policy**
+    
+2. Add this JSON policy:
+    
+`{   "Version": "2012-10-17",   "Statement": [     {       "Sid": "PublicReadGetObject",       "Effect": "Allow",       "Principal": "*",       "Action": "s3:GetObject",       "Resource": "arn:aws:s3:::my-frontend-bucket-abc123/*"     }   ] }`
+
+--------
+
 ### **Step 3: CloudFront Distribution**
 
 1. CloudFront → Create Distribution
