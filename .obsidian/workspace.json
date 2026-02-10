@@ -39,12 +39,14 @@
             "id": "728be6a805e294dd",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "S3 Lab/S3 + CloudFront (Frontend).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "S3 + CloudFront (Frontend)"
             }
           }
         ],
