@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "S3 + CloudFront (Frontend)"
             }
+          },
+          {
+            "id": "728be6a805e294dd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,7 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "22c81964ef4bbb7e",
+  "active": "728be6a805e294dd",
   "lastOpenFiles": [
     "S3 Lab/s3 services in aws.md",
     "S3 Lab/S3 + CloudFront (Frontend).md",
