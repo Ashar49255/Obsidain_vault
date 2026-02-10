@@ -378,13 +378,13 @@ if __name__ == "__main__":
   `"Statement": [
     `{
       `"Sid": "PublicReadGetObject",
-      "`Effect": "Allow",
-      "Principal": "*",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::my-frontend-bucket-abc123/*"
-    }
-  ]
-}
+      `"Effect": "Allow",
+      `"Principal": "*",
+      `"Action": "s3:GetObject",
+      `"Resource": "arn:aws:s3:::my-frontend-bucket-abc123/*"
+    `}
+  `]
+``}
 
 --------
 
