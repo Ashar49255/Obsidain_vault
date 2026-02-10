@@ -28,7 +28,12 @@
 
 ### **db.js** – MySQL connection
 
-`const mysql = require('mysql2/promise');  const db = mysql.createPool({   host: 'mysql-user-app', // Docker container name of MySQL   user: 'root',   password: 'yourpassword', // same as MySQL container env   database: 'user_app', });  module.exports = db;`
+`const mysql = require('mysql2/promise'); 
+const db = mysql.createPool({   
+host: 'mysql-user-app',  // Docker container name of MySQL   user: 'root',   
+password: 'yourpassword', 
+// same as MySQL container env   database: 'user_app', }); 
+module.exports = db;`
 
 ---
 
