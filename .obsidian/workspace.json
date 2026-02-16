@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12-feb-25/Learn Associate GCP.md",
+                "file": "Feb-16- ECR CES RDS CI-CD pipeline/aa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learn Associate GCP"
+              "title": "aa"
             }
           }
         ]
@@ -185,11 +185,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e67cbdb4c6d9ff7",
+  "active": "ae3cbbab48c06601",
   "lastOpenFiles": [
-    "Untitled",
-    "12-feb-25/Learn Associate GCP.md",
+    "Untitled.md",
+    "Feb-16- ECR CES RDS CI-CD pipeline/aa.md",
     "Feb 16.md",
+    "Feb-16- ECR CES RDS CI-CD pipeline",
+    "12-feb-25/Learn Associate GCP.md",
     "DNS Notes/2026-02-05.md",
     "Linux notes/linux work 20.1.2026.md",
     "Linux notes/Linux Doc.md",
@@ -214,7 +216,6 @@
     "Simple User Add App/SIMPLE DEPLOYMENT STEPS.md",
     "task user add",
     "Linux Assigment/Linux CMD.md",
-    "Simple User Add App",
     "Linux Assigment/Day 3.md",
     "Linux Assigment/Linux File Protection  chattr +i.md",
     "Linux Assigment/User and SSH.md",
@@ -223,7 +224,6 @@
     "Nginx Notes/Nginx learning 21-01-2026.md",
     "Nginx Notes/Pasted image 20260121170341.png",
     "Nginx Notes/Nginx Frontend & backend  config.md",
-    "DNS Notes/2026-01-25.md",
     "DNS Notes/Untitled 1.canvas",
     "Nginx Notes/Screenshot 2026-01-21 165117.png",
     "Nginx Notes/Pasted image 20260121182356.png",
