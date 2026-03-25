@@ -159,3 +159,6 @@ S8 — Security Groups: Review 0.0.0.0/0 Rules [LOW-MEDIUM]
 For a legacy PHP app, check that Security Groups only allow necessary ports. Port 22 (SSH) should NOT be open to 0.0.0.0/0 — restrict to specific IPs or use AWS Systems Manager Session Manager. Port 3306 (MySQL) should never be publicly accessible.
 
 Recommendation: Use least-privilege Security Group rules and enable VPC Flow Logs.
+
+Action Roadmap
+--
