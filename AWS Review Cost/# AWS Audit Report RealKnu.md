@@ -162,3 +162,36 @@ Recommendation: Use least-privilege Security Group rules and enable VPC Flow Log
 
 Action Roadmap
 --
+Prioritized action plan — implement in this order for maximum impact and minimum risk.
+
+1 🚨 Immediate (This Week) — Security
+
+Enable MFA on root account and all IAM users. Review and delete root access keys if they exist. Set up CloudTrail in all regions. Rotate any access keys older than 90 days. Cost: $0.
+
+2 🔍 Identify the new RDS instances — Are they needed?
+
+Determine why db.m7g.large and db.m5.large appeared in Feb. If they are test/staging instances, stop or terminate them. If only one is needed, terminate the other. Expected saving: $80–$115/month. Timeline: 1–2 days.
+
+3 ⬆️ Upgrade MySQL 5.7 → MySQL 8.0
+
+Schedule a maintenance window for the MySQL upgrade. Test application compatibility with MySQL 8.0 in staging first. This eliminates the $42/month Extended Support charge (which doubles in Year 2). Timeline: 1–2 weeks with testing.
+
+4 📏 Right-size RDS instance after load analysis
+
+Enable CloudWatch Enhanced Monitoring on RDS for 2 weeks. If CPU stays below 20–30%, downgrade to db.t4g.medium. For a typical PHP app this saves $40–$80/month. Timeline: 3–4 weeks (monitoring period first).
+
+5 🔐 Enable RDS Encryption at Rest
+
+Create encrypted snapshot of current RDS instance → Restore to new encrypted instance → Update app connection string → Terminate unencrypted instance. Must be planned with downtime window. Timeline: 1 weekend.
+
+6 📧 Audit WorkMail and reduce mailbox count
+
+List all WorkMail users. Disable or remove inactive ones. $4/user/month — reducing from 15 to 5 users saves $40/month. Consider migrating to external provider entirely. Timeline: 1 week.
+
+7 💰 Set up AWS Budgets + Cost Anomaly Detection
+
+Create a budget at $450/month with email alerts at 80% and 100%. Enable Cost Anomaly Detection for RDS, EC2. This prevents future surprise bills. Cost: Free tier. Timeline: 30 minutes.
+
+8 📅 Purchase Reserved Instances for stable workloads
+
+Once instance types are right-sized and stable, purchase 1-year Reserved Instances for EC2 and RDS. Saves 30–40% vs on-demand. Do this AFTER right-sizing — buying RI for wrong-sized instances wastes savings. Timeline: 30 days after step 4.
