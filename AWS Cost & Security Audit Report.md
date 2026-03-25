@@ -58,8 +58,9 @@ This report analyzes AWS usage, cost trends, and security posture for the RealKn
 |VPC|$19.43|$19.42|$20.19|Stable|
 |Route 53|$0.52|$0.53|$0.61|Stable|
 |WorkMail|$60.00|$60.00|$60.00|Stable|
+![[Screenshot from 2026-03-25 16-36-46.png]]
 
-> **Figure 2:** Screenshot of RDS Cost Explorer / Month-over-Month cost trend.
+RDS Cost Explorer / Month-over-Month cost trend.
 
 **Observation:**
 
