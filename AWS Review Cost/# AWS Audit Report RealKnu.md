@@ -93,3 +93,6 @@ Potential saving: $25–$50/month on compute via 1yr Reserved Instances
 The $140 spike in Feb went undetected until billing review. Set a Budget alert at $450/month with SNS email notifications. Enable Cost Anomaly Detection for RDS specifically — this would have flagged the new instances immediately.
 
 Preventive: catches future spikes before month-end billing surprise
+
+
+Security Findings-
