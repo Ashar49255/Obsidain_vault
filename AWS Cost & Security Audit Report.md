@@ -116,5 +116,3 @@ RDS Cost Explorer / Month-over-Month cost trend.
 - AWS total cost increased **34% (Dec → Feb)** mainly due to **RDS usage spikes and legacy support**.
 - **FinOps opportunities:** right-size instances, terminate idle resources, use reserved capacity, monitor anomalies.
 - **Security improvements:** encryption, Multi-AZ, IAM MFA, root account management.
-
-> Next step: Implement recommendations in coordination with AWS admin team; continue read-only monitoring.
