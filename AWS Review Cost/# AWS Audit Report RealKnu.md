@@ -45,6 +45,7 @@ At Feb 2026 pace
 Findings & Recommendations
 
 ``FinOps — Cost Reduction
+--
 
 ``F1 — RDS: Two new instances appeared in Feb 2026 (db.m7g.large + db.m5.large)
 
@@ -95,4 +96,66 @@ The $140 spike in Feb went undetected until billing review. Set a Budget alert a
 Preventive: catches future spikes before month-end billing surprise
 
 
-Security Findings-
+Security Findings
+--
+S1 — RDS Encryption at Rest: DISABLED [HIGH RISK]
+
+RDS instances are running without encryption at rest. This means database files on disk are unprotected. Enabling encryption requires creating an encrypted snapshot and restoring to a new instance (cannot be enabled in-place). This is a compliance and data protection issue.
+
+Risk: Data exposure if storage is accessed or copied. Required for PCI-DSS, HIPAA, ISO 27001.
+
+🌐
+
+S2 — RDS Multi-AZ: DISABLED [HIGH RISK]
+
+Single-AZ RDS means a hardware failure or AZ outage brings down the database with no automatic failover. For a production application, this is a significant availability risk. Multi-AZ standby replica provides automatic failover in ~60–120 seconds.
+
+Risk: Complete database downtime during AZ failures. No automatic recovery.
+
+👤
+
+S3 — IAM MFA Not Enforced [HIGH RISK]
+
+IAM users can log in without Multi-Factor Authentication. This means a compromised password = full account access. Apply an IAM policy DenyWithoutMFA to force all users to enroll MFA before accessing console resources. Also check for any access keys without rotation policy.
+
+Risk: Account takeover via credential stuffing or phishing. No second factor stops attackers.
+
+👑
+
+S4 — Root Account Usage [HIGH RISK]
+
+Root account has unrestricted access to everything including billing, IAM deletion, and account closure. Root should NEVER be used for daily operations. Enable MFA on root immediately, delete root access keys if they exist, and lock root credentials in a secure vault.
+
+Risk: Root account compromise = total account loss. No recovery controls.
+
+📋
+
+S5 — CloudTrail Not Confirmed Enabled [MEDIUM]
+
+No CloudTrail activity was visible in the cost data (CloudTrail storage would show in S3 costs, which are $0.00). Without CloudTrail, there is no audit log of who made changes, when, and from where. This is critical for incident response and compliance.
+
+Risk: No forensic trail for security incidents or unauthorized changes.
+
+🔑
+
+S6 — IAM Access Key Age Unknown [MEDIUM]
+
+AWS best practice requires access keys to be rotated every 90 days. Review IAM → Users → Security Credentials for last rotation date. Keys older than 90 days should be rotated. Keys older than 1 year should be considered potentially compromised and replaced immediately.
+
+Risk: Long-lived credentials increase exposure window if leaked in code or config files.
+
+🪣
+
+S7 — S3 Public Access Status Unknown [MEDIUM]
+
+S3 shows $0.00 cost which may mean S3 is used minimally or accessed via CloudFront. Confirm that Block Public Access is enabled at the account level in S3 settings. Even if no buckets exist today, this prevents accidental public bucket creation in the future.
+
+Risk: Accidental data exposure if public access block is not enforced at account level.
+
+🔒
+
+S8 — Security Groups: Review 0.0.0.0/0 Rules [LOW-MEDIUM]
+
+For a legacy PHP app, check that Security Groups only allow necessary ports. Port 22 (SSH) should NOT be open to 0.0.0.0/0 — restrict to specific IPs or use AWS Systems Manager Session Manager. Port 3306 (MySQL) should never be publicly accessible.
+
+Recommendation: Use least-privilege Security Group rules and enable VPC Flow Logs.
