@@ -14,8 +14,8 @@ This report analyzes AWS usage, cost trends, and security posture for the RealKn
 - Major cost drivers: **RDS instances and MySQL extended support**.
 - Minor fluctuations in EC2, ELB, VPC, Route 53.
 - Security gaps: **RDS encryption disabled, Multi-AZ disabled, IAM MFA not enforced**.
-
-> **Figure 1:** Screenshot of Cost Comparison Graph (Dec 2025 → Feb 2026).
+![[Screenshot from 2026-03-25 16-30-56.png]]
+    Cost Comparison Graph (Dec 2025 → Feb 2026).
 
 ---
 
