@@ -104,41 +104,31 @@ RDS instances are running without encryption at rest. This means database files 
 
 Risk: Data exposure if storage is accessed or copied. Required for PCI-DSS, HIPAA, ISO 27001.
 
-🌐
-
-S2 — RDS Multi-AZ: DISABLED [HIGH RISK]
+🌐 S2 — RDS Multi-AZ: DISABLED [HIGH RISK]
 
 Single-AZ RDS means a hardware failure or AZ outage brings down the database with no automatic failover. For a production application, this is a significant availability risk. Multi-AZ standby replica provides automatic failover in ~60–120 seconds.
 
 Risk: Complete database downtime during AZ failures. No automatic recovery.
 
-👤
-
-S3 — IAM MFA Not Enforced [HIGH RISK]
+👤 S3 — IAM MFA Not Enforced [HIGH RISK]
 
 IAM users can log in without Multi-Factor Authentication. This means a compromised password = full account access. Apply an IAM policy DenyWithoutMFA to force all users to enroll MFA before accessing console resources. Also check for any access keys without rotation policy.
 
 Risk: Account takeover via credential stuffing or phishing. No second factor stops attackers.
 
-👑
-
-S4 — Root Account Usage [HIGH RISK]
+👑 S4 — Root Account Usage [HIGH RISK]
 
 Root account has unrestricted access to everything including billing, IAM deletion, and account closure. Root should NEVER be used for daily operations. Enable MFA on root immediately, delete root access keys if they exist, and lock root credentials in a secure vault.
 
 Risk: Root account compromise = total account loss. No recovery controls.
 
-📋
-
-S5 — CloudTrail Not Confirmed Enabled [MEDIUM]
+📋 S5 — CloudTrail Not Confirmed Enabled [MEDIUM]
 
 No CloudTrail activity was visible in the cost data (CloudTrail storage would show in S3 costs, which are $0.00). Without CloudTrail, there is no audit log of who made changes, when, and from where. This is critical for incident response and compliance.
 
 Risk: No forensic trail for security incidents or unauthorized changes.
 
-🔑
-
-S6 — IAM Access Key Age Unknown [MEDIUM]
+🔑 S6 — IAM Access Key Age Unknown [MEDIUM]
 
 AWS best practice requires access keys to be rotated every 90 days. Review IAM → Users → Security Credentials for last rotation date. Keys older than 90 days should be rotated. Keys older than 1 year should be considered potentially compromised and replaced immediately.
 
@@ -205,4 +195,4 @@ $320–$370
 ==Save ~$180–$230/mo==
 **After Full Optimization**
 $240–$290
-Save ~$260–$310/mo
+==Save ~$260–$310/mo==
