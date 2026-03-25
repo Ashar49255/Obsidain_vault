@@ -3,40 +3,28 @@
 
 **Prepared by:** Muhammad Ashar
 **Date:** March 25, 2026**Period:** Dec 2025 – Feb 2026**Type:** Read-only · No changes made
-
+```
 Key Metrics — Cost Overview
-
 Dec 2025 Total
-
 $411.76
-
 Baseline month
-
 Feb 2026 Total
-
 $552.02
-
 ▲ $140.26 vs Dec
-
 MoM Increase
-
 34%
-
 Primarily RDS
-
 Est. Annual Run Rate
-
 ~$6,624
-
 At Feb 2026 pace
 
+```
 ### Monthly cost by service (Dec 2025 → Jan 2026 → Feb 2026)
 
-RDSEC2 InstancesEC2 - OtherWorkMailELBVPCSupport
-
+``RDSEC2 InstancesEC2 - OtherWorkMailELBVPCSupport
 ### RDS cost breakdown — Feb 2026 (major driver)
 
-db.m7g.large (new)MySQL 5.7 Extended Supportdb.m5.large (new)Existing RDS (Dec)
+``db.m7g.large (new)MySQL 5.7 Extended Supportdb.m5.large (new)Existing RDS (Dec)
 
 ### Service cost breakdown
 
