@@ -58,7 +58,7 @@ This report analyzes AWS usage, cost trends, and security posture for the RealKn
 |VPC|$19.43|$19.42|$20.19|Stable|
 |Route 53|$0.52|$0.53|$0.61|Stable|
 |WorkMail|$60.00|$60.00|$60.00|Stable|
-![[Screenshot from 2026-03-25 16-36-46.png]]
+
 
 RDS Cost Explorer / Month-over-Month cost trend.
 
@@ -77,8 +77,9 @@ RDS Cost Explorer / Month-over-Month cost trend.
 |RDS Multi-AZ|Disabled|RDS Dashboard → Multi-AZ: No|🔴 High|
 |IAM Users|MFA not enforced|IAM Console → MFA: Not enabled|🟡 Medium|
 |Root/Admin usage|High privileges|Root account exists|🔴 High|
+![[Screenshot from 2026-03-25 16-36-46.png]]
 
-> **Figure 3:** Screenshot of RDS Dashboard showing encryption & Multi-AZ settings.
+RDS Dashboard showing encryption & Multi-AZ settings.
 
 ---
 
