@@ -195,3 +195,18 @@ Create a budget at $450/month with email alerts at 80% and 100%. Enable Cost Ano
 8 📅 Purchase Reserved Instances for stable workloads
 
 Once instance types are right-sized and stable, purchase 1-year Reserved Instances for EC2 and RDS. Saves 30–40% vs on-demand. Do this AFTER right-sizing — buying RI for wrong-sized instances wastes savings. Timeline: 30 days after step 4.
+
+### Projected monthly cost after optimization
+
+Current (Feb 2026)
+$552
+
+After Quick Wins (Steps 1-4)
+$320–$370
+Save ~$180–$230/mo
+
+**After Full Optimization**
+
+$240–$290
+
+Save ~$260–$310/mo
