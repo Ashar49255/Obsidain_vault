@@ -198,15 +198,11 @@ Once instance types are right-sized and stable, purchase 1-year Reserved Instanc
 
 ### Projected monthly cost after optimization
 
-Current (Feb 2026)
+**Current (Feb 2026)**
 $552
-
-After Quick Wins (Steps 1-4)
+**After Quick Wins (Steps 1-4)**
 $320–$370
-Save ~$180–$230/mo
-
+==Save ~$180–$230/mo==
 **After Full Optimization**
-
 $240–$290
-
 Save ~$260–$310/mo
