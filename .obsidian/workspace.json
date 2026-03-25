@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AEC Exam prepare.md",
+                "file": "AWS Cost & Security Audit Report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AEC Exam prepare"
+              "title": "AWS Cost & Security Audit Report"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "3d9fb2f7bd771c2a",
@@ -189,7 +188,7 @@
   "active": "eca970e76e56887e",
   "lastOpenFiles": [
     "Feb-16- ECR CES RDS CI-CD pipeline/Dockerized Frontend & Backend Deployment on AWS.md",
-    "AEC Exam prepare.md",
+    "AWS Cost & Security Audit Report.md",
     "Feb 16.md",
     "Feb-16- ECR CES RDS CI-CD pipeline",
     "12-feb-25/Learn Associate GCP.md",
