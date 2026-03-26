@@ -25,7 +25,7 @@ At Feb 2026 pace
 
 ### Service cost breakdown
 
-| ```<br>```Service               | Dec 2025    | Jan 2026  | Feb 2026    | Change       | Status    |
+| Service                         | Dec 2025    | Jan 2026  | Feb 2026    | Change       | Status    |
 | ------------------------------- | ----------- | --------- | ----------- | ------------ | --------- |
 | **Relational Database Service** | $204.67     | ~$205     | $343.54     | +$138.87     | Critical  |
 | EC2 - Instances                 | $69.04      | $69.04    | $62.36      | -$6.68       | Improving |
@@ -39,11 +39,9 @@ At Feb 2026 pace
 
 ---
 
-Findings & Recommendations
-
-``FinOps — Cost Reduction
+**Findings & Recommendations**
+#### ``FinOps — Cost Reduction
 --
-
 ``F1 — RDS: Two new instances appeared in Feb 2026 (db.m7g.large + db.m5.large)
 
 Usage jumped from 0 hrs to 227.52 hrs and 213.40 hrs respectively in a single month. These may be test/staging instances left running. The db.m7g.large alone added $76.67 in one month. Verify if both are needed in production simultaneously.
