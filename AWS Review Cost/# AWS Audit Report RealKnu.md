@@ -1,7 +1,5 @@
 |  Legacy PHP Application  |  Region: us-east-2
-
-**Prepared by:** Muhammad Ashar
-**Date:** March 25, 2026**Period:** Dec 2025 – Feb 2026**Type:** Read-only · No changes made
+**Date:** March 25, 2026  **Period:** Dec 2025 – Feb 2026  **Type:** Read-only · No changes made
 ```
 Key Metrics — Cost Overview
 Dec 2025 Total
@@ -27,7 +25,7 @@ At Feb 2026 pace
 
 ### Service cost breakdown
 
-| Service                         | Dec 2025    | Jan 2026  | Feb 2026    | Change       | Status    |
+| ```<br>```Service               | Dec 2025    | Jan 2026  | Feb 2026    | Change       | Status    |
 | ------------------------------- | ----------- | --------- | ----------- | ------------ | --------- |
 | **Relational Database Service** | $204.67     | ~$205     | $343.54     | +$138.87     | Critical  |
 | EC2 - Instances                 | $69.04      | $69.04    | $62.36      | -$6.68       | Improving |
