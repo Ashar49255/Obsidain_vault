@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Review Cost/AWS cost management Doc.md",
+                "file": "AWS Cost & Security Audit Report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS cost management Doc"
+              "title": "AWS Cost & Security Audit Report"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "eca970e76e56887e",
   "lastOpenFiles": [
-    "Untitled.md",
     "AWS Review Cost/AWS cost management Doc.md",
+    "Untitled.md",
     "AWS Review Cost",
     "AWS Cost & Security Audit Report.md",
     "User add project via Dockerfile/User Management System - Full Stack Documentation.md",
