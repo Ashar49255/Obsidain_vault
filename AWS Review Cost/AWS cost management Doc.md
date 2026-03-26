@@ -185,3 +185,39 @@ $320–$370
 **After Full Optimization**
 $240–$290
 ==Save ~$260–$310/mo==
+
+------
+**1. Cost Increase**
+
+- Total cost increased from **$412 → $552 (+34%)**
+- Main reason: **RDS (database cost increased by ~$139)**
+
+**2. Root Cause**
+
+- Two **new RDS instances** were added in Feb (likely test/staging)
+- **MySQL 5.7** is outdated → extra **$42/month support cost**
+- Database size/config likely **overpowered for our PHP app**
+
+**3. Key Savings Opportunities**
+
+- Remove unused RDS instance → save **$80–$115/month**
+- Upgrade MySQL → save **$42+/month**
+- Right-size database → save **$40–$80/month**
+- Reduce WorkMail users → save **$20–$50/month**
+
+👉 **Total possible savings: ~$260–$300/month**
+
+**4. Security Risks (Important)**
+
+- No **MFA enabled** → high risk
+- **RDS not encrypted**
+- **No Multi-AZ** → downtime risk
+- **CloudTrail not enabled** → no activity logs
+
+**5. Action Plan**
+
+- Enable MFA + security fixes (immediate)
+- Remove unnecessary RDS instances
+- Upgrade MySQL to 8.0
+- Optimize database size
+- Set budget alerts to avoid future spikes
