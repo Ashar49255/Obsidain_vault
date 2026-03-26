@@ -1,5 +1,4 @@
 **Project:** RealKnu (6297-4555-4024)  
-**Prepared by:** Muhammad Ashar  
 **Date:** March 25, 2026
 
 ---
